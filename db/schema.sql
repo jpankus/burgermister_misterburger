@@ -7,6 +7,7 @@ CREATE TABLE burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
-	sleepy BOOLEAN DEFAULT false,
+	devoured BOOLEAN DEFAULT false,
+	date_time TIMESTAMP NOT NULL DEFAULT 0,
 	PRIMARY KEY (id)
 );
